@@ -9,8 +9,9 @@
 @import: pop
 
 document '<
-  +parallel-bottom ?:(0.7) ?:(0.265) <
-    +centering{全部合わせて1000円\large{ヤバイテックトーキョー}　\huge{東N29b}}
+  +parallel-bottom ?:(0.74) ?:(0.25) <
+    +centerings{|\Large{全部合わせて1000円}|\large{ヤバイテックトーキョー}　\Large{東N29b}|}
+    +linebreak;
   > <
     +centerings {|
       電子版は|
@@ -22,7 +23,6 @@ document '<
   +parallel-bottom ?:(0.45) ?:(0.55) <
     +front-image-first(`./images/yabaitechvol7.jpg`);
   > <
-    % +p-noindent{\Large{【新刊】}}
     +vol-old(7);
     +enumerate-with-gap(3.5mm) {
       * チルノのパーフェクトフォワーディング (完全転送) 教室
@@ -30,11 +30,8 @@ document '<
       * 炒め物のイディオム
       * 自作言語Sesterlでオンライン対局ゲームを実装した話
     }
-    +p-noindent{\price(`書籍`)(500);% 　　\price(`電子版`)(1000);
+    +p-noindent{\price(`書籍`)(500);
     }
-    % +price(`書籍`)(1500);
-    % % +linebreak;
-    % +price(`電子版`)(1000);
   >
 
   +linebreak;
@@ -48,7 +45,7 @@ document '<
       * GNU Emacsで\LaTeX;文書を書く話
       * 高速SATソルバーを支える技術
     }
-    +p-noindent{\price(`書籍`)(200);% 　　\price(`電子版`)(1000);
+    +p-noindent{\price(`書籍`)(200);
     }
     % +linebreak;
   > <
@@ -98,26 +95,6 @@ document '<
     }
     +price(`書籍`)(100);
   >
-  % +linebreak;
-  % +parallel-bottom ?:(0.3) ?:(0.7) <
-    % +front-image-second(`./images/yabaitechvol2.jpg`);
-  % > <
-    % +vol-old(2);
-    % +parallel <
-    %   +enumerate-with-gap(3mm) {
-    %     * \small{けもフレbotを支える技術}
-    %     * \small{RustでOSをつくる}
-    %     * \small{定理証明支援系を作ろう}
-    %     * \small{Belugaによる定理証明}
-    %   }
-    % > <
-    %   +enumerate-with-gap?:(4)(3mm) {
-    %     * \small{多段階計算の型システム}
-    %     * \small{時間オートマトン入門}
-    %     * \small{Twitchゲーム配信観戦ガイド}
-    %   }
-    % >
-    % +price(`電子版`)(1000);
-  % >
+
   +linebreak;
  >
