@@ -34,9 +34,7 @@ document '<
     }
   >
 
-  +linebreak;
-  +linebreak;
-  +linebreak;
+  +vspace(15mm);
 
   +parallel-bottom ?:(0.55) ?:(0.40) <
     +vol-old(6);
@@ -51,9 +49,9 @@ document '<
   > <
     +front-image-first(`./images/yabaitechvol6.jpg`);
   >
-  +linebreak;
 
   %%%%%%%%%%%%%%%%%%%%% 2枚目 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  +newpage;
 
   +parallel-bottom ?:(0.40) ?:(0.58) <
     +front-image-second(`./images/yabaitechvol5.jpg`);
@@ -95,6 +93,4 @@ document '<
     }
     +price(`書籍`)(100);
   >
-
-  +linebreak;
  >
