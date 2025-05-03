@@ -1,0 +1,30 @@
+opam-version: "2.0"
+name: "yabaitech_techfest18_pop"
+version: "0.0.1"
+synopsis: "Pop of yabaitech.tokyo for Techfest 18"
+description: """
+"""
+maintainer: "Masaki Waga <masakiwaga@gmail.com>"
+authors: [
+    "Masaki Waga"
+    "Yuito Murase"
+]
+license: "MIT"
+homepage: "https://github.com/yabaitechtokyo/techbookfest18-pop"
+bug-reports: "https://github.com/yabaitechtokyo/techbookfest18-pop/issues"
+dev-repo: "git+https://github.com/yabaitechtokyo/techbookfest18-pop.git"
+depends: [
+  "satysfi" {= "0.0.6"}
+  "satyrographos" {>= "0.0.2.7" & < "0.0.3"}
+  "satysfi-base" {>= "1.2.1" & < "2.0.0"}
+  "satysfi-fonts-noto-sans" {>= "2.000"}
+  "satysfi-parallel" {>= "0.2.0"}
+  "satysfi-latexcmds" {>= "0.1.0"}
+]
+build: [ ]
+install: [
+  ["satyrographos" "opam" "install"
+   "--name" "yabaitech-techfest18-pop"
+   "--prefix" "%{prefix}%"
+   "--script" "%{build}%/Satyristes"]
+]
