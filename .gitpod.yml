@@ -1,0 +1,11 @@
+image:
+  file: Dockerfile.gitpod
+
+ports:
+  - port: 3000
+    onOpen: open-preview
+
+vscode:
+  extensions:
+    - pickoba.satysfi-workshop
+    - james-yu.latex-workshop
