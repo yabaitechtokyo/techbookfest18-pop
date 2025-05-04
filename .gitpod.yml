@@ -9,3 +9,15 @@ vscode:
   extensions:
     - pickoba.satysfi-workshop
     - james-yu.latex-workshop
+
+tasks:
+  - name: Open Target File
+    command: |
+      if [ -n "$targetFile" ]; then code ${targetFile//[_]//};  fi
+  - name: Install dependencies
+    command: 
+      opam update;
+      opam install . --yes;
+      satyrographos install;
+      sudo apt update;
+      sudo apt install pdf2svg --yes;

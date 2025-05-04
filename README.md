@@ -1,7 +1,7 @@
 # techbookfest18-pop
 技術書典18用のポップ
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/yabaitechtokyo/techbookfest18-pop)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#targetFile=pop.saty/https://github.com/yabaitechtokyo/techbookfest18-pop)
 
 Usage
 -----
