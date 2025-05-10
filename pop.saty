@@ -10,7 +10,7 @@
 
 document '<
   +parallel-bottom ?:(0.74) ?:(0.25) <
-    +centerings{|\Large{全部合わせて1000円}|\large{ヤバイテックトーキョー}　\Large{あ13}|}
+    +centerings{|\Large{全部合わせて2000円}|\large{ヤバイテックトーキョー}　\Large{東N29b}|}
     +linebreak;
   > <
     +centerings {|
@@ -43,7 +43,7 @@ document '<
       * GNU Emacsで\LaTeX;文書を書く話
       * 高速SATソルバーを支える技術
     }
-    +p-noindent{\price(`書籍`)(200);
+    +p-noindent{\price(`書籍`)(500);
     }
     % +linebreak;
   > <
@@ -63,7 +63,7 @@ document '<
        * アスペクト指向プログラミングで C++ プログラム用モニタを実装した話
        * F-ing modulesの型検査とコンパイル手法
     }
-    +price(`書籍`)(100);
+    +price(`書籍`)(500);
   >
   +linebreak;
 
@@ -75,7 +75,7 @@ document '<
        * (おまけ記事) Let's verify your C program!
        * あとがき ーyabaitech.tokyoを支える技術ー
     }
-    +price(`書籍`)(100);
+    +price(`書籍`)(500);
   > <
     +front-image-second(`./images/yabaitechvol4.jpg`);
   >
@@ -91,6 +91,6 @@ document '<
       * 粘菌で計算がしたい！
       * 真矛盾主義入門
     }
-    +price(`書籍`)(100);
+    +price(`書籍`)(500);
   >
  >
