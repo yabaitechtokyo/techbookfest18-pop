@@ -15,9 +15,9 @@ document '<
   > <
     +centerings {|
       電子版は|
-      Boothで無料配布
+      無料配布!
     |}
-    +qr-image(`./images/qr20211219151921966.jpeg`);
+    +qr-image(`./images/qrcode.jpeg`);
   >
   +linebreak;
   +parallel-bottom ?:(0.45) ?:(0.55) <
