@@ -7,8 +7,8 @@ Usage
 -----
 
 ```sh
-opam pin add techbookfest18-pop.opam "file://$PWD"
-satyrographos install 
+opam pin add yabaitech-techfest18-pop.opam "file://$PWD"
+satyrographos install
 satysfi pop.saty
 ```
 
