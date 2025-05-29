@@ -10,7 +10,7 @@
 
 document '<
   +parallel-bottom ?:(0.74) ?:(0.25) <
-    +centerings{|\Large{まとめ買いなら2000円}|\large{ヤバイテックトーキョー}　\Large{東N29b}|}
+    +centerings{|\Large{まとめ買いなら2000円}|\large{ヤバイテックトーキョー}　\Large{あ13}|}
     +linebreak;
   > <
     +centerings {|
